@@ -4,8 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueLazyload from 'vue-lazyload'
+import store from './store'
 
-import 'common/stylus/reset.styl'
+import 'common/stylus/index.styl'
 
 Vue.config.productionTip = false
 
@@ -22,6 +23,7 @@ Vue.use(VueLazyload, {
 let vm = new Vue({
   el: '#app',
   router,
+  store,
   render: h => h(App)
 })
 

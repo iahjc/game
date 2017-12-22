@@ -10,10 +10,11 @@
       <router-link tag="a" to="/sort">应用中心</router-link>
     </li>
     <li>
-      <a href="http://news.bluestacks.cn/" target="_blank">资讯中心</a>
+      <router-link tag="a" to="/animation">某官网</router-link>
     </li>
     <li><a href="http://zhuanti.bluestacks.cn/rxjh/index.html" target="_blank">精彩专题</a></li>
-    <li><a href="">常见问题</a></li>
+    <li>
+      <router-link tag="a" to="/qes">常见问题</router-link>
     <li><a href="javascript:void(0)" @click="clickk">关于我们</a></li>
   </ul>
 </template>

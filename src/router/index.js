@@ -5,6 +5,9 @@ import Download from 'components/download/download'
 import Sort from 'components/sort/sort'
 import Detial from 'components/app-detail/app-detail'
 import Counsel from 'components/counsel/counsel'
+import Qes from 'components/qes/qes'
+import QesDes from 'components/qes-des/qes-des'
+import Animation from 'components/animation/animation'
 
 Vue.use(Router)
 
@@ -30,6 +33,18 @@ export default new Router({
     {
       path: '/counsel',
       component: Counsel
+    },
+    {
+      path: '/qes',
+      component: Qes
+    },
+    {
+      path: '/qes/:id',
+      component: QesDes
+    },
+    {
+      path: '/animation',
+      component: Animation
     }
   ]
 })
